@@ -5,7 +5,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 script {
-                    git branch: 'master', url: 'https://github.com/Nikhildevopshub/CI-CD-Pipeline.git'
+                    git branch: 'main', url: 'https://github.com/Nikhildevopshub/CI-CD-Pipeline.git'
                 }
             }
         }
