@@ -1,10 +1,5 @@
 pipeline {
-    agent any 
-    
-    tools {
-        // Specify the Maven tool by its configured name
-        maven 'maven'
-    }
+    agent any
     
     stages {
         stage('Git Checkout') {
